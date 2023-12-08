@@ -23,7 +23,7 @@ describe('PqgeComponent', () => {
     expect(component).toBeTruthy();
     });
 
-    it(`LA FORCE DE L'EXPERIENCE`,()=>{
+    it(`MENGATA FRANCK LUTHER ING 4 ISI`,()=>{
       expect(component).toBeTruthy();
       });
 
