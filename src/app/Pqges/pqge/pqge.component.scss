@@ -1,0 +1,861 @@
+.Hautdepage{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* padding-top: 0.089em; */
+    background: black;
+}
+
+.reseau{
+	width: 30%;
+	display: flex;
+}
+
+.contact{
+	display: inline-block;
+    width: 80%;
+    height:50px ;
+    padding-left: 4em;
+
+
+}
+
+.liste{
+	text-align: right;
+/*	display: inline-block;*/
+	display: flex;
+	align-items: flex-end;
+}
+
+.enteteliste{
+	text-align:right;
+	display: inline-block;
+	color: white;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.elementliste{
+	display: inline-block;
+	text-align:right;
+	margin-left: 40px;
+}
+
+.bouttonEntete{
+    border:3px #9dd74d solid;
+	background-color: #9dd74d;
+	border-radius: 3px 3px 3px 3px ;
+	font-size: 10px;
+	margin-left: -40px;
+	margin-right:-60px ;
+	box-shadow: 3px 2px #9dd74d;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.bouttonEntete:hover{
+	color: white;
+}
+
+.imageEntete{
+	display: inline-block;
+	border: #393939 solid;
+	background-color: #393939;
+	border-radius: 3px ;
+	color: white;
+
+}
+
+.listeImage{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.titre{
+	padding-top: 1em;
+	display: flex;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.Menuliste{
+	text-align:right;
+	display: inline-block;
+	color: black;
+    margin-right: 10px;
+    
+}
+
+
+
+.elementMenu{
+	text-align:right;
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
+.elementMenu:hover{
+	color:#9dd74d ;
+}
+
+
+.menu{
+	display: inline-block;
+	text-align: right;
+    width: 80%;
+    border-color: black;
+    padding-left: 3em;
+
+}
+
+.titreEntre{
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	margin-left: 1em;
+
+}
+
+.fond{
+/*	background-image: url("fonds.jpg");*/
+	width: auto;
+	height: 500px;
+	
+
+}
+
+.barre1{
+
+	width: 20%;
+	height: 150px;
+}
+
+.barre2{
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+
+.horizon{
+	display: flex;
+	flex-direction: row;
+	background-color:#a2d84c;
+	width: 30%;
+	padding-top: 10px;
+	height: 100px;
+}
+
+.horizon1{
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	padding-top: 10px;
+	height: 100px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+
+
+}
+.horizon2{
+	display: flex;
+	flex-direction: row;
+	background-color:#a2d84c;
+	width: 30%;
+	padding-top: 10px;
+	height: 100px;
+	color: white;
+	text-align: center;
+}
+
+.barre3{
+	width: 100%;
+	height: 400px;
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.readMore{
+	border:7px #fdbe1b solid;
+	background-color: #fdbe1b;
+	border-radius: 3px 3px 3px 3px ;
+	font-weight: bold;
+	box-shadow: 3px 2px #bdaf34;
+	cursor: pointer;
+
+}
+
+.readMore:hover{
+	color: white;
+}
+
+.cercle{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border:3px white solid;
+    border-radius: 100% ;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.cercle1{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #aed586;
+	border:3px #aed586 solid;
+    border-radius: 100% ;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.cercle2{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #aed586;
+	border:3px #aed586 solid;
+    border-radius: 100% ;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+
+.avantage{
+	height: 550px;
+	width: auto;
+}
+
+.enteteavantage{
+	height: 70px;
+	width: auto;
+	display: flex;
+	text-align: center;
+}
+
+.titreAvantage{
+	color:rgb(82, 132, 15);
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	height:100px;
+	width: 70%;
+
+}
+
+.titreNos{
+	color: black;
+	text-align: center;
+	display: inline-block;
+}
+
+.tiAvantage{
+	text-align: center;
+	display: inline-block;
+}
+
+.avantagetexte{
+	font-weight: initial;
+	text-align: center;
+	height:100px;
+	width: 100%;
+	color:#e1e0ce;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.hAvantage{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	padding-top: 15px;
+	height: 100px;
+	text-align: center;
+}
+
+.hor2{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding-top: 10px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+
+
+.avantageimage{
+	height:300px;
+	width: 100%;
+	display: flex;
+
+}
+
+.icone{
+	height:300px;
+	width: 25%;
+	flex-direction: row;
+}
+
+.IC{
+/*    background-image: url("conf.png");*/
+	height: 200px;
+	width: 200px;
+	background-color: #e1e0ce;
+	border:5px #e1e0ce solid;
+    border-radius: 100% ;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    clip-path: ellipse(50% 50%);
+    padding: auto ;
+    display: flex;
+}
+
+.texticone1{
+	display: flex;
+	height:200px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #e1e0ce;
+	font-size: 20px;
+}
+
+.conf{
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	color: black;
+}
+
+.ppt{
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.aboutus{
+	background-image: url( /src/assets/fond1.jpg);
+	height: 400px;
+	width: 100%;
+}
+
+.Apropos{
+	color: rgb(82, 132, 15);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 70px;
+    width: 100%;
+}
+
+.about{
+	height: 330px;
+	width: 100%;
+	display: inline-block;
+	display: flex;
+}
+
+.abouttext{
+	display: inline-block;
+	height: 330;
+	width: 50%;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-right: 200px;
+}
+
+.aboutimage{
+	display: inline-block;
+	height: 330;
+	width: 50%;
+}
+
+.nosServices{
+	height: 470px;
+	width: auto;
+}
+
+.enteteService{
+	height: 70px;
+	width: auto;
+	display: flex;
+	text-align: center;
+}
+
+.hService{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	padding-top: 15px;
+	height: 100px;
+	text-align: center;
+}
+
+.titreService{
+	color:rgb(82, 132, 15);
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	height:100px;
+	width: 70%;
+}
+
+.servicetexte{
+	font-weight: initial;
+	text-align: center;
+	height:130px;
+	width: 100%;
+	color:#e1e0ce;
+	padding-top: 10px;
+	font-size: 12px;
+
+}
+.serviceimage{
+	height:205px;
+	width: 100%;
+	display: flex;
+}
+
+.servicebord1{
+	display: flex;
+	flex-direction: row;
+	width: 4%;
+	padding-top: 10px;
+	height: 205px;
+
+}
+
+.servicebord2{
+	display: flex;
+	flex-direction: row;
+	width: 4%;
+	padding-top: 10px;
+	height: 205px;
+}
+
+.icone1{
+	height:205px;
+	width: 23%;
+	flex-direction: row;
+	display: inline-block;
+	margin-left: 20px;
+	background-color:#e1e0ce;
+}
+
+.IC1{
+/*    background-image: url("conf.png");*/
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    background-color: #fdbe1b;
+    border: 5px #fdbe1b solid;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    clip-path: ellipse(50% 50%);
+    padding: auto;
+    display: flex;
+    align-content: flex-end
+}
+
+.texticoneService{
+	width: 100%;
+	height: 90px;
+	text-align: center;
+	margin-left: -20px;
+}
+
+.nosrealisation{
+	height: 560px;
+	width: 100%;
+	background-color: black;
+}
+
+.read{
+	border:0px  #e1e0ce solid;
+	background-color: #e1e0ce;
+	font-weight: bold;
+	color:#a2d84c ;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.read:hover{
+	color: white;
+}
+
+.titrenosrealisation{
+	color: rgb(82, 132, 15);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 70px;
+    width: 100%;
+}
+
+.titrNos{
+		color: white;
+	text-align: center;
+	display: inline-block;
+}
+
+.textrealisation{
+	font-weight: initial;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.listrealisation{
+	font-weight: initial;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+.elerealisation{
+	text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.elerealisation:hover{
+	color: #a2d84c;
+
+}
+
+.realisationimage{
+	display: flex;
+	height: 300px;
+	width: 100%;
+}
+
+.realisationbas{
+	width:100% ;
+	height: 80px;
+
+}
+
+.imageRealisation{
+	height: 300px;
+	width: 92%;
+	display: inline-block;
+    flex-direction: row
+}
+
+.nosServiceBord1{
+	display: inline-block;
+	flex-direction: row;
+	width: 4%;
+	height: 300px;
+
+}
+
+.nosServiceBord2{
+	display: inline-block;
+	flex-direction: row;
+	width: 4%;
+	height: 300px;
+}
+
+.imageline1{
+	height: 150px;
+	width: 100%;
+	display: flex;
+}
+.image{
+	height: 150px;
+	width: 20%;
+	display: inline-block;
+	flex-direction: row;
+}
+
+.newprojet{
+	background-color: #a2d84c;
+	height: 200px;
+	width: 100%;
+}
+
+.newtitre{
+	color: white;
+	text-align: center;
+	padding-top: -10;
+	height: 60px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.formu{
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.eleform{
+	text-align: center;
+	margin-right: 10px;
+	display: inline-block;
+
+}
+
+input{
+	height: 30px;
+	border-radius: 6px 6px 6px 6px;
+	border:  #a2d84c;
+	margin-left: 2px;
+}
+
+.newtexte{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	color: #e1e0ce;
+}
+
+.noscontact{
+	height: 470px;
+	width: 100%;
+}
+
+.noscontacttitre{
+	color: rgb(82, 132, 15);
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 40px;
+    width: 100%
+}
+
+.noscontacttexte{
+	font-weight: initial;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    color: #a2d84c;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.numero{
+	font-weight: initial;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    color: black;
+    display: inline-block;
+}
+
+.carte{
+	 background-image: url(/src/assets/cart.png);
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.tcont{
+	text-align: center;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.pieds{
+	display: flex;
+	height: 300px;
+	width: 100%;
+	background-color: rgb(130, 142, 25);
+	color: white;
+}
+
+.entre{
+	display: inline-block;
+	flex-direction: row;
+	width: 30%;
+	height: 300px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 50px;
+}
+
+.link{
+	display: inline-block;
+	flex-direction: row;
+	width: 20%;
+	height: 300px;
+	border-left: white solid 1px;
+	padding-top: 50px;
+
+}
+
+.serv{
+	display: inline-block;
+	flex-direction: row;
+	width: 20%;
+	height: 300px;
+	padding-top: 50px;
+}
+
+.cont{
+	display: inline-block;
+	flex-direction: row;
+	width: 30%;
+	height: 300px;
+	padding-top: 50px;
+	text-align: center;
+	border-left:white solid 1px;
+	padding-left: 10px; 
+}
+
+a{
+	color: white;
+}
+
+.ali{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border:3px black solid;
+    border-radius: 100% ;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    color: rgb(130, 142, 25);
+    font-weight: bold;
+
+}
+
+.alie{
+    width: 20px;
+    height: 20px;
+    background-color: #5e5e5e;
+    border: 3px #5e5e5e solid;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.re{
+	display: flex;
+	width: 20%;
+	height: 50px;
+	margin-top: 15px;
+	padding-left: 1px;
+
+}
+
+li a{
+	text-decoration: none;
+	color: maroon;
+
+}
+
+li a:hover{
+	color: #9dd74d;
+	font-weight: bold;
+}
+
+li a:visited{
+	color: red;
+}
+
+a{
+	text-decoration: non;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.call{
+
+	display: inline-block;
+	text-align:right;
+	margin-right: 80px;
+		align-items: center;
+}
+
+.entete{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	text-align: right;
+width: 70%;
+	height:6vh;
+	vertical-align: center;
+}
+
+.callme{
+	display: inline-block;
+	text-align:right;
+    border:5px #9dd74d solid;
+	background-color: #9dd74d;
+	vertical-align: center;
+	border-radius: 3px 3px 3px 3px ;
+		align-items: center;
+	margin-right: 10px;
+
+}
+
+.callImag{
+	height: 6vh;
+	width: 30%;
+}
+
+.aligneCall{
+	display: flex;
+	height: 6vh;
+	background: black;
+}
+
+.dvi{
+	display: flex;
+	flex-direction: row;
+}
+*/
